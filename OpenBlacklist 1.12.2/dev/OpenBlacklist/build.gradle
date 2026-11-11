@@ -1,0 +1,51 @@
+buildscript {
+    repositories {
+        maven { url = 'https://maven.minecraftforge.net/' }
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:3.+'
+    }
+}
+
+apply plugin: 'net.minecraftforge.gradle'
+apply plugin: 'eclipse'
+apply plugin: 'maven-publish'
+
+version = "0.1.0"
+group = "com.openblacklist"
+archivesBaseName = "OpenBlacklist"
+
+sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8'
+
+minecraft {
+    mappings channel: 'snapshot', version: '20171003-1.12'
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.console.level', 'debug'
+            // Loads our coremod in the dev client
+            property 'fml.coreMods.load', 'com.openblacklist.OpenBlacklistPlugin'
+        }
+    }
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2860'
+}
+
+jar {
+    manifest {
+        attributes(
+            'FMLCorePlugin': 'com.openblacklist.OpenBlacklistPlugin',
+            'FMLCorePluginContainsFMLMod': 'true'
+        )
+    }
+}
+
+task copyJarToDownloads(type: Copy) {
+    from jar
+    into '/home/qlvkcz/Downloads/Mojang Blacklist/1.12.2/build/libs'
+}
+build.finalizedBy copyJarToDownloads
