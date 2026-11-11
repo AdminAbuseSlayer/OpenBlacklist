@@ -6,7 +6,6 @@ If there is any issues report them to https://github.com/AdminAbuseSlayer/OpenBl
 
 Only versions
   - 1.8.9 - Forge
-  - 1.9 - Forge
   - 1.12.2 - Forge
   - 1.21.6 - Fabric
   - 1.21.7 - Fabric
