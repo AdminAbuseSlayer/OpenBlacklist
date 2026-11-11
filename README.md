@@ -1,8 +1,6 @@
 OpenBlacklist is a mod that removes Mojang's Blacklist against any server. 
 
-Pretty easy to understand.
-
-Am I right lads or am I right lads?
+Lunar Client may not work with the mod but, if I make it work, it's only version 1.8.9.
 
 Only versions
 - 1.8.9
