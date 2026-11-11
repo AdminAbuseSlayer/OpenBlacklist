@@ -1,11 +1,11 @@
-#OpenBlacklist
+
 OpenBlacklist is a mod that removes Mojang's Blacklist against any server. 
 
 Pretty easy to understand.
 
 Am I right lads or am I right lads?
 
-Versions
+Only versions
 - 1.8.9
 - 1.9
 - 1.12.2
