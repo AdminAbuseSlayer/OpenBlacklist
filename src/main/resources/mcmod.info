@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "openblacklist",
+    "name": "OpenBlacklist",
+    "description": "A universal Minecraft 1.8.9 Forge mod that bypasses Mojang's blocked-server checks, allowing players to connect to blocked servers. https://github.com/AdminAbuseSlayer/OpenBlacklist",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://github.com/AdminAbuseSlayer/OpenBlacklist",
+    "updateUrl": "",
+    "authorList": ["AdminAbuseSlayer"],
+    "credits": "",
+    "logoFile": "logo.png",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

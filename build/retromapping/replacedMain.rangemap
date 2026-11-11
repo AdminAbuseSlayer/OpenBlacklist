@@ -1,0 +1,156 @@
+Symbol range map extraction starting
+Processing 3 files
+processing com/openblacklist/OpenBlacklist.java
+@|com/openblacklist/OpenBlacklist.java|8|25|com.openblacklist|package|com.openblacklist|(file)
+Class Start: com.openblacklist.OpenBlacklist
+   @|com/openblacklist/OpenBlacklist.java|343|349|String|class|java.lang.String
+   @|com/openblacklist/OpenBlacklist.java|350|355|MODID|field|com.openblacklist.OpenBlacklist|MODID|
+   @|com/openblacklist/OpenBlacklist.java|399|405|String|class|java.lang.String
+   @|com/openblacklist/OpenBlacklist.java|406|410|NAME|field|com.openblacklist.OpenBlacklist|NAME|
+   @|com/openblacklist/OpenBlacklist.java|454|460|String|class|java.lang.String
+   @|com/openblacklist/OpenBlacklist.java|461|468|VERSION|field|com.openblacklist.OpenBlacklist|VERSION|
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com/openblacklist/OpenBlacklist.java|519|523|init|method|com.openblacklist.OpenBlacklist|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com/openblacklist/OpenBlacklist.java|524|546|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com/openblacklist/OpenBlacklist.java|547|552|event|param|com.openblacklist.OpenBlacklist|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com/openblacklist/OpenBlacklist.java|564|570|System|class|java.lang.System
+      @|com/openblacklist/OpenBlacklist.java|571|574|out|field|java.lang.System|out
+      @|com/openblacklist/OpenBlacklist.java|575|582|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+Class End  : com.openblacklist.OpenBlacklist
+endProcessing com/openblacklist/OpenBlacklist.java
+
+processing com/openblacklist/core/OpenBlacklistLoadingPlugin.java
+@|com/openblacklist/core/OpenBlacklistLoadingPlugin.java|8|30|com.openblacklist.core|package|com.openblacklist.core|(file)
+Class Start: com.openblacklist.core.OpenBlacklistLoadingPlugin
+   Method Start: getASMTransformerClass()[Ljava/lang/String;
+      @|com/openblacklist/core/OpenBlacklistLoadingPlugin.java|302|324|getASMTransformerClass|method|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|getASMTransformerClass|()[Ljava/lang/String;
+      @|com/openblacklist/core/OpenBlacklistLoadingPlugin.java|293|299|String|class|java.lang.String
+      @|com/openblacklist/core/OpenBlacklistLoadingPlugin.java|348|354|String|class|java.lang.String
+   Method End: getASMTransformerClass()[Ljava/lang/String;
+   Method Start: getModContainerClass()Ljava/lang/String;
+      @|com/openblacklist/core/OpenBlacklistLoadingPlugin.java|471|491|getModContainerClass|method|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|getModContainerClass|()Ljava/lang/String;
+      @|com/openblacklist/core/OpenBlacklistLoadingPlugin.java|464|470|String|class|java.lang.String
+   Method End: getModContainerClass()Ljava/lang/String;
+   Method Start: getSetupClass()Ljava/lang/String;
+      @|com/openblacklist/core/OpenBlacklistLoadingPlugin.java|556|569|getSetupClass|method|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|getSetupClass|()Ljava/lang/String;
+      @|com/openblacklist/core/OpenBlacklistLoadingPlugin.java|549|555|String|class|java.lang.String
+   Method End: getSetupClass()Ljava/lang/String;
+   Method Start: injectData(Ljava/util/Map;)V
+      @|com/openblacklist/core/OpenBlacklistLoadingPlugin.java|632|642|injectData|method|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|injectData|(Ljava/util/Map;)V
+      @|com/openblacklist/core/OpenBlacklistLoadingPlugin.java|647|653|String|class|java.lang.String
+      @|com/openblacklist/core/OpenBlacklistLoadingPlugin.java|655|661|Object|class|java.lang.Object
+      @|com/openblacklist/core/OpenBlacklistLoadingPlugin.java|643|646|Map|class|java.util.Map
+      @|com/openblacklist/core/OpenBlacklistLoadingPlugin.java|663|667|data|param|com.openblacklist.core.OpenBlacklistLoadingPlugin|injectData|(Ljava/util/Map;)V|data|0
+   Method End: injectData(Ljava/util/Map;)V
+   Method Start: getAccessTransformerClass()Ljava/lang/String;
+      @|com/openblacklist/core/OpenBlacklistLoadingPlugin.java|710|735|getAccessTransformerClass|method|net.minecraftforge.fml.relauncher.IFMLLoadingPlugin|getAccessTransformerClass|()Ljava/lang/String;
+      @|com/openblacklist/core/OpenBlacklistLoadingPlugin.java|703|709|String|class|java.lang.String
+   Method End: getAccessTransformerClass()Ljava/lang/String;
+Class End  : com.openblacklist.core.OpenBlacklistLoadingPlugin
+endProcessing com/openblacklist/core/OpenBlacklistLoadingPlugin.java
+
+processing com/openblacklist/core/OpenBlacklistTransformer.java
+@|com/openblacklist/core/OpenBlacklistTransformer.java|8|30|com.openblacklist.core|package|com.openblacklist.core|(file)
+Class Start: com.openblacklist.core.OpenBlacklistTransformer
+   @|com/openblacklist/core/OpenBlacklistTransformer.java|417|423|String|class|java.lang.String
+   @|com/openblacklist/core/OpenBlacklistTransformer.java|424|439|BLOCKED_SERVERS|field|com.openblacklist.core.OpenBlacklistTransformer|BLOCKED_SERVERS|
+   @|com/openblacklist/core/OpenBlacklistTransformer.java|512|518|String|class|java.lang.String
+   @|com/openblacklist/core/OpenBlacklistTransformer.java|519|528|BOOTSTRAP|field|com.openblacklist.core.OpenBlacklistTransformer|BOOTSTRAP|
+   Method Start: transform(Ljava/lang/String;Ljava/lang/String;[B)[B
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|604|613|transform|method|net.minecraft.launchwrapper.IClassTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|614|620|String|class|java.lang.String
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|621|625|name|param|com.openblacklist.core.OpenBlacklistTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|name|0
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|627|633|String|class|java.lang.String
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|634|649|transformedName|param|com.openblacklist.core.OpenBlacklistTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|transformedName|1
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|658|668|basicClass|param|com.openblacklist.core.OpenBlacklistTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|685|695|basicClass|param|com.openblacklist.core.OpenBlacklistTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|751|757|String|class|java.lang.String
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|770|785|transformedName|param|com.openblacklist.core.OpenBlacklistTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|transformedName|1
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|808|823|transformedName|param|com.openblacklist.core.OpenBlacklistTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|transformedName|1
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|838|842|name|param|com.openblacklist.core.OpenBlacklistTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|name|0
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|897|907|basicClass|param|com.openblacklist.core.OpenBlacklistTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|950|957|replace|method|java.lang.String|replace|(CC)Ljava/lang/String;
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|983|998|BLOCKED_SERVERS|field|com.openblacklist.core.OpenBlacklistTransformer|BLOCKED_SERVERS
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|999|1005|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1033|1042|BOOTSTRAP|field|com.openblacklist.core.OpenBlacklistTransformer|BOOTSTRAP
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1043|1049|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1083|1093|basicClass|param|com.openblacklist.core.OpenBlacklistTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1132|1143|ClassReader|class|org.objectweb.asm.ClassReader
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1157|1168|ClassReader|class|org.objectweb.asm.ClassReader
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1169|1179|basicClass|param|com.openblacklist.core.OpenBlacklistTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1194|1203|ClassNode|class|org.objectweb.asm.tree.ClassNode
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1220|1229|ClassNode|class|org.objectweb.asm.tree.ClassNode
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1253|1259|accept|method|org.objectweb.asm.ClassReader|accept|(Lorg/objectweb/asm/ClassVisitor;I)V
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1329|1339|MethodNode|class|org.objectweb.asm.tree.MethodNode
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1359|1366|methods|field|org.objectweb.asm.tree.ClassNode|methods
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1391|1406|BLOCKED_SERVERS|field|com.openblacklist.core.OpenBlacklistTransformer|BLOCKED_SERVERS
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1407|1413|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1455|1459|name|field|org.objectweb.asm.tree.MethodNode|name
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1460|1466|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1524|1528|desc|field|org.objectweb.asm.tree.MethodNode|desc
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1529|1535|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1592|1604|instructions|field|org.objectweb.asm.tree.MethodNode|instructions
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1605|1610|clear|method|org.objectweb.asm.tree.InsnList|clear|()V
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1641|1653|instructions|field|org.objectweb.asm.tree.MethodNode|instructions
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1654|1657|add|method|org.objectweb.asm.tree.InsnList|add|(Lorg/objectweb/asm/tree/AbstractInsnNode;)V
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1687|1695|InsnNode|class|org.objectweb.asm.tree.InsnNode
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1696|1703|Opcodes|class|org.objectweb.asm.Opcodes
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1704|1712|ICONST_0|field|org.objectweb.asm.Opcodes|ICONST_0
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1764|1776|instructions|field|org.objectweb.asm.tree.MethodNode|instructions
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1777|1780|add|method|org.objectweb.asm.tree.InsnList|add|(Lorg/objectweb/asm/tree/AbstractInsnNode;)V
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1810|1818|InsnNode|class|org.objectweb.asm.tree.InsnNode
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1819|1826|Opcodes|class|org.objectweb.asm.Opcodes
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1827|1834|IRETURN|field|org.objectweb.asm.Opcodes|IRETURN
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1887|1901|tryCatchBlocks|field|org.objectweb.asm.tree.MethodNode|tryCatchBlocks
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1902|1907|clear|method|java.util.Collection|clear|()V
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1938|1952|localVariables|field|org.objectweb.asm.tree.MethodNode|localVariables
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|1988|1996|maxStack|field|org.objectweb.asm.tree.MethodNode|maxStack
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|2023|2029|System|class|java.lang.System
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|2030|2033|out|field|java.lang.System|out
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|2034|2041|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|2245|2254|BOOTSTRAP|field|com.openblacklist.core.OpenBlacklistTransformer|BOOTSTRAP
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|2255|2261|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|2303|2307|name|field|org.objectweb.asm.tree.MethodNode|name
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|2308|2314|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|2361|2365|desc|field|org.objectweb.asm.tree.MethodNode|desc
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|2366|2372|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|2512|2524|instructions|field|org.objectweb.asm.tree.MethodNode|instructions
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|2525|2530|clear|method|org.objectweb.asm.tree.InsnList|clear|()V
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|2561|2573|instructions|field|org.objectweb.asm.tree.MethodNode|instructions
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|2574|2577|add|method|org.objectweb.asm.tree.InsnList|add|(Lorg/objectweb/asm/tree/AbstractInsnNode;)V
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|2607|2615|InsnNode|class|org.objectweb.asm.tree.InsnNode
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|2616|2623|Opcodes|class|org.objectweb.asm.Opcodes
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|2624|2635|ACONST_NULL|field|org.objectweb.asm.Opcodes|ACONST_NULL
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|2687|2699|instructions|field|org.objectweb.asm.tree.MethodNode|instructions
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|2700|2703|add|method|org.objectweb.asm.tree.InsnList|add|(Lorg/objectweb/asm/tree/AbstractInsnNode;)V
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|2733|2741|InsnNode|class|org.objectweb.asm.tree.InsnNode
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|2742|2749|Opcodes|class|org.objectweb.asm.Opcodes
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|2750|2757|ARETURN|field|org.objectweb.asm.Opcodes|ARETURN
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|2810|2824|tryCatchBlocks|field|org.objectweb.asm.tree.MethodNode|tryCatchBlocks
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|2825|2830|clear|method|java.util.Collection|clear|()V
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|2861|2875|localVariables|field|org.objectweb.asm.tree.MethodNode|localVariables
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|2911|2919|maxStack|field|org.objectweb.asm.tree.MethodNode|maxStack
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|2946|2952|System|class|java.lang.System
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|2953|2956|out|field|java.lang.System|out
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|2957|2964|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|3200|3206|System|class|java.lang.System
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|3207|3210|err|field|java.lang.System|err
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|3211|3218|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|3368|3378|basicClass|param|com.openblacklist.core.OpenBlacklistTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|3407|3418|ClassWriter|class|org.objectweb.asm.ClassWriter
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|3432|3443|ClassWriter|class|org.objectweb.asm.ClassWriter
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|3461|3472|ClassWriter|class|org.objectweb.asm.ClassWriter
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|3473|3485|COMPUTE_MAXS|field|org.objectweb.asm.ClassWriter|COMPUTE_MAXS
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|3524|3530|accept|method|org.objectweb.asm.tree.ClassNode|accept|(Lorg/objectweb/asm/ClassVisitor;)V
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|3567|3578|toByteArray|method|org.objectweb.asm.ClassWriter|toByteArray|()[B
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|3600|3609|Throwable|class|java.lang.Throwable
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|3631|3637|System|class|java.lang.System
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|3638|3641|err|field|java.lang.System|err
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|3642|3649|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|3755|3770|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+      @|com/openblacklist/core/OpenBlacklistTransformer.java|3794|3804|basicClass|param|com.openblacklist.core.OpenBlacklistTransformer|transform|(Ljava/lang/String;Ljava/lang/String;[B)[B|basicClass|2
+   Method End: transform(Ljava/lang/String;Ljava/lang/String;[B)[B
+Class End  : com.openblacklist.core.OpenBlacklistTransformer
+endProcessing com/openblacklist/core/OpenBlacklistTransformer.java
+

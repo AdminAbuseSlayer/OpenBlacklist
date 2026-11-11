@@ -1,0 +1,33 @@
+[23:49:31] [Client thread/INFO]: Setting user: Player759
+[23:49:33] [Client thread/INFO]: LWJGL Version: 2.9.4
+[23:49:35] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:OpenBlacklist
+[23:49:35] [Client thread/ERROR]: Couldn't initialize twitch stream
+[23:49:35] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[23:49:36] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[23:49:36] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:49:36] [Thread-8/INFO]: OpenAL initialized.
+[23:49:36] [Sound Library Loader/INFO]: Sound engine started
+[23:49:37] [Client thread/INFO]: Created: 16x16 textures-atlas
+[23:49:38] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:OpenBlacklist
+[23:49:38] [Client thread/INFO]: SoundSystem shutting down...
+[23:49:38] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[23:49:38] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[23:49:38] [Thread-10/INFO]: Initializing LWJGL OpenAL
+[23:49:38] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:49:38] [Thread-10/INFO]: OpenAL initialized.
+[23:49:39] [Sound Library Loader/INFO]: Sound engine started
+[23:49:39] [Client thread/INFO]: Created: 512x512 textures-atlas
+[23:49:45] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[23:49:48] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[23:49:50] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[23:49:51] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[23:49:51] [Client thread/INFO]: Connecting to gateway.arch.mc, 25565
+[23:49:53] [Client thread/INFO]: [CHAT] [!] Login using the command /login <password>.
+[23:49:53] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:game.player.hurt.fall.big
+[23:49:53] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.stone
+[23:49:54] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.game
+[23:49:54] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.wood
+[23:49:57] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.gravel
+[23:49:57] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.gravel
+[23:49:57] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.wood
+[23:49:59] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
