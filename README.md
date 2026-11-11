@@ -4,7 +4,7 @@ Pretty easy to understand.
 
 Am I right lads or am I right lads?
 
-Versions 
+Versions
 - 1.8.9
 - 1.9
 - 1.12.2
